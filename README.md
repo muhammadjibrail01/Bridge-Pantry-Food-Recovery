@@ -85,6 +85,10 @@ All parameters are defined at the top of `src/model.py`, each as `(base, low, hi
 
 After editing, run `./run_all.sh`. All figures, Tables 1 to 5 and 7, and the Appendix C cash-flow table are generated from the model outputs and data files, so they update automatically. Numbers quoted in the paper's prose are written out in `src/build_paper.js`; if a change moves any of them, the consistency check at the end of `run_all.sh` lists each statement that no longer matches so it can be revised.
 
+## Author Contributions
+
+This project was designed, coded, and analyzed independently by Muhammad Jibrail. The code builds the financial model, generates all figures, and assembles the paper. The writing and the policy recommendations (Section 8) represent the author's original intellectual contribution to the field of urban food policy and homelessness.
+
 ## Data sources
 
 See `data/README.md` for the source of every dataset and the paper's reference list for full citations. Principal sources: ReFED Insights Engine and U.S. Food Waste Policy Finder; USDA Food and Nutrition Administration SNAP data; U.S. Energy Information Administration fuel prices; Chicago Department of Family and Support Services Point-in-Time count; Chicago Coalition to End Homelessness; Greater Chicago Food Depository reports and filings; U.S. EPA WARM v16 and *From Field to Bin* (2023).
