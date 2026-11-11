@@ -1,0 +1,12 @@
+{
+  "name": "bridge-pantry-research",
+  "version": "1.0.0",
+  "description": "Model, figures, and paper for The Bridge Pantry: A Financially Sustainable Model for Reducing Food Waste and Homelessness in Chicago",
+  "private": true,
+  "scripts": {
+    "build:paper": "node src/build_paper.js"
+  },
+  "dependencies": {
+    "docx": "^9.8.1"
+  }
+}

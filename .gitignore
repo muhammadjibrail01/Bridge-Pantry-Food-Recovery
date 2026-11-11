@@ -1,0 +1,17 @@
+# Python / Node
+__pycache__/
+*.pyc
+node_modules/
+
+# Large public downloads (see data/README.md)
+data/raw/*
+!data/raw/README.md
+
+# Regenerated intermediates
+outputs/mc_npv.npy
+outputs/headings.json
+
+# OS / editor files
+.DS_Store
+*.swp
+~$*

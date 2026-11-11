@@ -1,0 +1,5 @@
+numpy>=1.26
+pandas>=2.1
+matplotlib>=3.8
+xlrd>=2.0.1      # reading the USDA .xls history files in data/raw
+openpyxl>=3.1    # reading the USDA .xlsx history files in data/raw
